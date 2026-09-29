@@ -1,0 +1,34 @@
+name: Bug report
+description: Something doesn't work the way the README says it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release, tag, or commit. Leave blank if you don't know.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, or Python or Node version, whichever applies.

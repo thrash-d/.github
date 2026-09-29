@@ -1,0 +1,21 @@
+# Local Claude context, never commit
+CLAUDE.md
+CLAUDE-HISTORY.md
+.claude/
+
+
+# Secrets, by content class
+.env
+.env.*
+!.env.example
+credentials.*
+*.key
+*.pem
+*.bak
+*.har
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
